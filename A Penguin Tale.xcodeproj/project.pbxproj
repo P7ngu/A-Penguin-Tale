@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		634F8ED52C2D613300DCCAEF /* ARAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F8ED42C2D613300DCCAEF /* ARAction.swift */; };
+		634F8ED72C2D614500DCCAEF /* ARManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F8ED62C2D614500DCCAEF /* ARManager.swift */; };
+		634F8ED92C2D615800DCCAEF /* MyARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F8ED82C2D615800DCCAEF /* MyARView.swift */; };
+		634F8EDB2C2D616900DCCAEF /* MyARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F8EDA2C2D616900DCCAEF /* MyARViewController.swift */; };
+		634F8EDD2C2D617F00DCCAEF /* MyARViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F8EDC2C2D617F00DCCAEF /* MyARViewRepresentable.swift */; };
+		634F8EDF2C2D61A900DCCAEF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634F8EDE2C2D61A900DCCAEF /* GameScene.swift */; };
+		634F8EE12C2D61D200DCCAEF /* penguinsong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 634F8EE02C2D61D200DCCAEF /* penguinsong.mp3 */; };
+		634F8EE32C2D61E300DCCAEF /* soundeffect.aif in Resources */ = {isa = PBXBuildFile; fileRef = 634F8EE22C2D61E300DCCAEF /* soundeffect.aif */; };
 		63602FC02C2D56CE00E32452 /* A_Penguin_TaleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63602FBF2C2D56CE00E32452 /* A_Penguin_TaleApp.swift */; };
 		63602FC22C2D56CE00E32452 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63602FC12C2D56CE00E32452 /* ContentView.swift */; };
 		63602FC42C2D56CF00E32452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63602FC32C2D56CF00E32452 /* Assets.xcassets */; };
@@ -14,6 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		634F8ED42C2D613300DCCAEF /* ARAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARAction.swift; sourceTree = "<group>"; };
+		634F8ED62C2D614500DCCAEF /* ARManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARManager.swift; sourceTree = "<group>"; };
+		634F8ED82C2D615800DCCAEF /* MyARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyARView.swift; sourceTree = "<group>"; };
+		634F8EDA2C2D616900DCCAEF /* MyARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyARViewController.swift; sourceTree = "<group>"; };
+		634F8EDC2C2D617F00DCCAEF /* MyARViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyARViewRepresentable.swift; sourceTree = "<group>"; };
+		634F8EDE2C2D61A900DCCAEF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		634F8EE02C2D61D200DCCAEF /* penguinsong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = penguinsong.mp3; sourceTree = SOURCE_ROOT; };
+		634F8EE22C2D61E300DCCAEF /* soundeffect.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = soundeffect.aif; sourceTree = SOURCE_ROOT; };
+		634F8EE42C2D651F00DCCAEF /* A-Penguin-Tale-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "A-Penguin-Tale-Info.plist"; sourceTree = SOURCE_ROOT; };
 		63602FBC2C2D56CE00E32452 /* A Penguin Tale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A Penguin Tale.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63602FBF2C2D56CE00E32452 /* A_Penguin_TaleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_Penguin_TaleApp.swift; sourceTree = "<group>"; };
 		63602FC12C2D56CE00E32452 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,10 +68,19 @@
 		63602FBE2C2D56CE00E32452 /* A Penguin Tale */ = {
 			isa = PBXGroup;
 			children = (
+				634F8EE42C2D651F00DCCAEF /* A-Penguin-Tale-Info.plist */,
 				63602FBF2C2D56CE00E32452 /* A_Penguin_TaleApp.swift */,
 				63602FC12C2D56CE00E32452 /* ContentView.swift */,
 				63602FC32C2D56CF00E32452 /* Assets.xcassets */,
 				63602FC52C2D56CF00E32452 /* Preview Content */,
+				634F8ED42C2D613300DCCAEF /* ARAction.swift */,
+				634F8ED82C2D615800DCCAEF /* MyARView.swift */,
+				634F8EDA2C2D616900DCCAEF /* MyARViewController.swift */,
+				634F8EDC2C2D617F00DCCAEF /* MyARViewRepresentable.swift */,
+				634F8ED62C2D614500DCCAEF /* ARManager.swift */,
+				634F8EDE2C2D61A900DCCAEF /* GameScene.swift */,
+				634F8EE02C2D61D200DCCAEF /* penguinsong.mp3 */,
+				634F8EE22C2D61E300DCCAEF /* soundeffect.aif */,
 			);
 			path = "A Penguin Tale";
 			sourceTree = "<group>";
@@ -125,8 +151,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634F8EE12C2D61D200DCCAEF /* penguinsong.mp3 in Resources */,
 				63602FC72C2D56CF00E32452 /* Preview Assets.xcassets in Resources */,
 				63602FC42C2D56CF00E32452 /* Assets.xcassets in Resources */,
+				634F8EE32C2D61E300DCCAEF /* soundeffect.aif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +165,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634F8EDD2C2D617F00DCCAEF /* MyARViewRepresentable.swift in Sources */,
+				634F8ED72C2D614500DCCAEF /* ARManager.swift in Sources */,
+				634F8EDF2C2D61A900DCCAEF /* GameScene.swift in Sources */,
+				634F8EDB2C2D616900DCCAEF /* MyARViewController.swift in Sources */,
 				63602FC22C2D56CE00E32452 /* ContentView.swift in Sources */,
+				634F8ED92C2D615800DCCAEF /* MyARView.swift in Sources */,
 				63602FC02C2D56CE00E32452 /* A_Penguin_TaleApp.swift in Sources */,
+				634F8ED52C2D613300DCCAEF /* ARAction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,21 +309,26 @@
 				DEVELOPMENT_TEAM = 5Y7P52GGAD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "A-Penguin-Tale-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "A Penguin Tale: Melting Ice";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "MatteoPerotta.A-Penguin-Tale";
+				PRODUCT_BUNDLE_IDENTIFIER = MatteoPerotta.PenguinTale;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -304,21 +343,26 @@
 				DEVELOPMENT_TEAM = 5Y7P52GGAD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "A-Penguin-Tale-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "A Penguin Tale: Melting Ice";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "MatteoPerotta.A-Penguin-Tale";
+				PRODUCT_BUNDLE_IDENTIFIER = MatteoPerotta.PenguinTale;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
