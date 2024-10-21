@@ -345,12 +345,16 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             //Change view, time for ARKit
             hideStoryLabel()
             isGameOver = true
+            print("AR Kit")
+            presentARView()
+            gameScene = gameScene+1
+            
+        } else if(gameScene == 9){
             print("End of AR")
-            gameScene = gameScene+2
+            gameScene = gameScene+1
             removeEgg()
             updateBackground(newBackground: "penguin")
             triggerSimpleHaptic()
-            
         } else if(gameScene == 10){
             print("Endgame starts now")
             setupScoreLabel()
@@ -374,7 +378,18 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         feedbackGenerator.impactOccurred()
     }
     
-   
+    func presentARView() {
+        // Find the current view controller
+        if let viewController = self.view?.findViewController() {
+            // Create the SwiftUI view to present
+            let view = ContentView()
+            // Wrap the SwiftUI view in a UIHostingController
+            let hostingController = UIHostingController(rootView: view)
+            
+            // Present the view controller
+            viewController.present(hostingController, animated: true, completion: nil)
+        }
+    }
     
     
     
