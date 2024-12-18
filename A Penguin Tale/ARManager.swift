@@ -8,7 +8,7 @@
 import SwiftUI
 import Combine
 class ARManager {
-    static let shared = ARManager()
+    @MainActor static let shared = ARManager()
     
     private init() {
         

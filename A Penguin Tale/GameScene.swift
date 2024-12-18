@@ -10,7 +10,7 @@ import GameplayKit
 import SwiftUI
 import AVFoundation
 
-class GameScene: SKScene, SKPhysicsContactDelegate {
+class GameScene: SKScene, @preconcurrency SKPhysicsContactDelegate {
     public var isGameOver = false
     
     private var lastUpdateTime : TimeInterval = 0
